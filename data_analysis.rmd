@@ -9,12 +9,12 @@ output: html_document
 The square root of 3 is `r sqrt(3)`
 
 ```{r, echo=FALSE}
-height <- c(72,71,66,76,70,71)
-ave_height <- mean(height)
-sd_height <- sd(height)
+heights <- c(72,71,66,76,70,71)
+ave_height <- mean(heights)
+sd_height <- sd(heights)
 ```
 
-We measured the heights of `r length(height)` individauls. Their average height wa `r ave_height` (sd =`r sd_height`).
+We measured the heights of `r length(heights)` individauls. Their average height wa `r ave_height` (sd =`r sd_height`).
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
